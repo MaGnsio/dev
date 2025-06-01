@@ -1,0 +1,45 @@
+#!/bin/bash
+
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
+if [ -z "$1" ]; then
+  echo -e "${RED}Usage: create-problem <filename>[.cpp]${NC}"
+  exit 1
+fi
+
+input_filename="$1"
+if [[ "$input_filename" =~ \.cpp$ ]]; then
+  cpp_filename="$input_filename"
+else
+  cpp_filename="${input_filename}.cpp"
+fi
+
+
+if [ -f "$cpp_filename" ]; then
+  echo -e "${RED}'$cpp_filename' already exists.${NC}"
+  exit 1
+fi
+
+current_time=$(date +"%d.%m.%Y %H:%M:%S")
+
+cat << EOF > "$cpp_filename"
+/**
+ *    author:  MaGnsi0
+ *    created: $current_time
+**/
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+}
+EOF
+
+if [ $? -eq 0 ]; then
+  echo -e "${GREEN}'$cpp_filename' is created.${NC}"
+else
+  echo -e "${RED}Failed to create '$cpp_filename'.${NC}"
+fi

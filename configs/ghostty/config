@@ -1,0 +1,10 @@
+theme = tokyonight_moon
+background = 000000
+background-opacity = 0.85
+background-blur = false
+
+font-family = "Monaspace Krypton Medium"
+font-size = 18
+
+confirm-close-surface = false
+clipboard-paste-protection = false

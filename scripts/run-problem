@@ -1,0 +1,37 @@
+#!/bin/bash
+
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
+if [ -z "$1" ]; then
+  echo -e "${RED}Usage: run-problem <filename>[.cpp]${NC}"
+  exit 1
+fi
+
+input_filename="$1"
+if [[ "$input_filename" == *.cpp ]]; then
+  source_file="$input_filename"
+else
+  source_file="${input_filename}.cpp"
+fi
+
+output_executable="${source_file%.cpp}.out"
+output_flag="-o $output_executable"
+
+# The G++ compilation command
+# -Wall: Enable all standard warnings
+# -Wextra: Enable extra warnings
+# -Wconversion: Warn about implicit conversions that may change value
+# -O2: Optimization level 2
+# -std=c++23: Use the C++23 standard
+# $source_file: The C++ source file
+# $output_flag: output executable name
+
+g++ -Wall -Wextra -Wconversion -O2 -std=c++23 "$source_file" $output_flag
+if [ $? -eq 0 ]; then
+  echo -e "${GREEN}Compilation successful! Running...${NC}"
+  ./${output_executable}
+else
+  echo -e "${RED}Compilation failed.${NC}"
+fi

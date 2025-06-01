@@ -1,0 +1,26 @@
+- cleanup.
+- update dev repo.
+    - add filestructre.
+    - add .bashrc and .zshrc
+    - add swaync configs.
+- drivers.
+- swaync styling.
+- hyprlock styling.
+- waybar styling.
+- hypr idle ??
+- ugly ass login screen.
+- stow (dot file thing).
+- nautlis is slow.
+- wofi setup.
+- add lang to hyprlock.
+
+- [x] add arabic.
+- [x] sound controls.
+- [x] bluetooth setup.
+- [x] better font for the browser.
+- [x] install nvim.
+- [x] zsh + oh my zsh (consider starship).
+- [x] wifi on startup.
+- [x] finish hyprland vedios.
+- [x] change font (monaspace krypton).
+- [x] CP setup.
