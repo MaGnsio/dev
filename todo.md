@@ -8,12 +8,12 @@
 - hyprlock styling.
 - waybar styling.
 - hypr idle ??
-- ugly ass login screen.
 - stow (dot file thing).
 - nautlis is slow.
 - wofi setup.
 - add lang to hyprlock.
 
+- [x] ugly ass login screen.
 - [x] add arabic.
 - [x] sound controls.
 - [x] bluetooth setup.
