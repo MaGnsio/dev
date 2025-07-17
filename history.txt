@@ -1,0 +1,68 @@
+   91  paru -S gcc
+   95  paru -S nodejs npm
+   99  paru -S cmake
+  103  paru -S treesitter
+  104  paru -S tree-sitter
+  109  paru -S tree-sitter-cli
+  111  paru -S fd
+  114  paru -S fzf
+  170  paru -S man
+  203  paru -S bluez bluez-utils
+  208  paru -S blueman
+  212  paru -S blueman
+  214  paru -S pavucontrol
+  215  paru -S pipewire-bluetooth
+  222  paru -S pulseaudio-bluetooth
+  223  paru -S pipewire pipewire-pulse pipewire-alsa pipewire-jack bluez bluez-utils
+  225  paru -S pipewire pipewire-pulse pipewire-alsa pipewire-jack bluez bluez-utils
+  226  paru -S pulseaudio-bluetooth
+  227  paru -S bluez bluez-utils pulseaudio-bluetooth
+  252  paru -S pipewire-pulse
+  254  paru -S pipewire-pulse
+  265  paru -S pulseaudio-bluetooth
+  290  paru -S fastfetch
+  582  paru -S lsd
+  903  paru -Sy
+  916  paru -S brightnessctl
+  925  paru -S wev
+  932  paru -S lm_sensors
+ 1006  paru -S sddm-astronaut-theme
+ 1047  paru -Sy
+ 1048  paru -S sddm-theme-sugar-candy
+ 1055  paru -S qt5-declarative
+ 1057  paru -S qt5-declarative
+ 1062  paru -S sddm
+ 1064  paru -S xcb-cursor0
+ 1065  paru -S xcb-cu
+ 1066  paru -S xcb-util-cursor
+ 1074  paru -S qt6-svg
+ 1075  paru -S qt5-quickcontrols
+ 1076  paru -S qt5-quickcontrols2
+ 1174  paru -S qt5-virtualkeyboard
+ 1176  paru -S qt6-virtualkeyboard
+ 1178  paru -S qt6-imageformats
+ 1180  paru -S qt5-imageformats
+ 1188  paru -S qt5-imageformats
+ 1189  paru -S qt6-imageformats
+ 1191  paru -S hunspell
+ 1194  paru -S qt6-virtualkeyboard
+ 1195  paru -Sy qt6-virtualkeyboard
+ 1196  paru -S extra/qt6-virtualkeyboard
+ 1200  paru -S qt6-png
+ 1271  paru -Sy
+ 1284  paru -S hyprcursor
+ 1306  paru -S bibata-cursor-theme-bin
+ 1346  paru -S dysk
+ 1349  paru -S zoxide
+ 1399  paru -S postgresql
+ 1401  paru -S pqadmin
+ 1402  paru -S dbeaver
+ 1404  paru -S docker
+ 1406  paru -S docker-compose
+ 1410  paru -S postgresql14
+ 1437  paru -S postman
+ 1459  sudo paru -Sy
+ 1462  paru -Sy
+ 1620  paru -Sy
+ 1623  paru -Sy
+ 1670  history | grep "paru -S"

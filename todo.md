@@ -12,6 +12,8 @@
 - nautlis is slow.
 - wofi setup.
 - add lang to hyprlock.
+- hyprcursor
+- sddm sugar candy
 
 - [x] ugly ass login screen.
 - [x] add arabic.
