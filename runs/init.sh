@@ -20,9 +20,10 @@ else
 fi
 
 paru -S --noconfirm --needed man-db
-paru -S --noconfirm --needed ghostty  zen-browser-bin nautilus
-paru -S --noconfirm --needed ttf-font-awesome otf-monaspace noto-fonts noto-fonts-cjk
-paru -S --noconfirm --needed nwg-look catppuccin-gtk-theme-mocha
+paru -S --noconfirm --needed ghostty nautilus
+paru -S --noconfirm --needed otf-monaspace
+paru -S --noconfirm --needed nwg-look tokyonight-gtk-theme-git bibata-cursor-theme-bin
 paru -S --noconfirm --needed hyprpaper hyprshot waybar swaync hyprlock
+paru -S --noconfirm --needed gtk-engine-murrine
 
-paru -Rn dolphin kitty
+paru -Rns dolphin kitty wofi
