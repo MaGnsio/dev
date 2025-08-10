@@ -18,7 +18,6 @@ fi
 
 
 if [ -f "$cpp_filename" ]; then
-  echo -e "${RED}'$cpp_filename' already exists.${NC}"
   exit 1
 fi
 
@@ -37,9 +36,3 @@ int main() {
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 }
 EOF
-
-if [ $? -eq 0 ]; then
-  echo -e "${GREEN}'$cpp_filename' is created.${NC}"
-else
-  echo -e "${RED}Failed to create '$cpp_filename'.${NC}"
-fi

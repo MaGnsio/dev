@@ -20,8 +20,7 @@ else
 fi
 
 paru -S --noconfirm --needed man-db
-paru -S --noconfirm --needed ghostty nautilus
-paru -S --noconfirm --needed otf-monaspace
+paru -S --noconfirm --needed nautilus
 paru -S --noconfirm --needed nwg-look tokyonight-gtk-theme-git bibata-cursor-theme-bin
 paru -S --noconfirm --needed hyprpaper hyprshot waybar swaync hyprlock
 paru -S --noconfirm --needed gtk-engine-murrine
