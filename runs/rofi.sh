@@ -1,4 +1,4 @@
-paru -S --noconfirm --needed rofi ttf-jetbrains-mono-nerd papirus-icon-theme
+paru -S --noconfirm --needed rofi papirus-icon-theme
 
 git clone https://github.com/Murzchnvok/rofi-collection
 

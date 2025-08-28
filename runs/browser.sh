@@ -1,3 +1,3 @@
-paru -S --noconfirm --needed zen-browser-bin ttf-dejavu noto-fonts-cjk
+paru -S --noconfirm --needed zen-browser-bin
 
-echo "Browser installed. Change the font to ttf-dejavu from GTK settings..."
+echo "Browser installed. Change the font to Noto Sans Regular from GTK settings..."

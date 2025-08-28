@@ -1,1 +1,1 @@
-paru -S --noconfirm --needed ghostty otf-monaspace
+paru -S --noconfirm --needed ghostty
