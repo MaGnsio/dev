@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 paru -S --noconfirm --needed rofi papirus-icon-theme
 
 git clone https://github.com/Murzchnvok/rofi-collection

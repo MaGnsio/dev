@@ -1,5 +1,4 @@
-theme = tokyonight_moon
-background = 000000
+theme = TokyoNight Moon
 background-opacity = 0.85
 background-blur = false
 
