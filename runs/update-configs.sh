@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 sudo cp ~/workspace/dev/configs/hypr/hyprland.conf ~/.config/hypr/
-sudo cp ~/workspace/dev/configs/hypr/hyprpaper.conf ~/.config/hypr/
 sudo cp ~/workspace/dev/configs/hypr/hyprlock.conf ~/.config/hypr/ && hyprctl reload
 
 sudo cp ~/workspace/dev/configs/waybar/* ~/.config/waybar/
