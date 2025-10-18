@@ -14,3 +14,5 @@ sudo cp ~/workspace/dev/configs/etc/ly/config.ini /etc/ly/
 sudo cp ~/workspace/dev/scripts/* /usr/local/bin/
 
 sudo cp ~/workspace/dev/configs/.zshrc ~/.zshrc && source ~/.zshrc
+
+sudo cp ~/workspace/dev/configs/.tmux.conf ~/.tmux.conf && tmux source -v ~/.tmux.conf
