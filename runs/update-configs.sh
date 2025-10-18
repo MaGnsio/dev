@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 sudo cp ~/workspace/dev/configs/hypr/hyprland.conf ~/.config/hypr/
 sudo cp ~/workspace/dev/configs/hypr/hyprlock.conf ~/.config/hypr/ && hyprctl reload
@@ -12,3 +12,5 @@ sudo cp ~/workspace/dev/configs/fontconfig/* ~/.config/fontconfig/ && fc-cache -
 sudo cp ~/workspace/dev/configs/etc/ly/config.ini /etc/ly/
 
 sudo cp ~/workspace/dev/scripts/* /usr/local/bin/
+
+sudo cp ~/workspace/dev/configs/.zshrc ~/.zshrc && source ~/.zshrc
