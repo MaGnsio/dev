@@ -8,22 +8,20 @@
         "clock"
     ],
     "modules-right": [
+        "tray",
         "hyprland/language",
         "pulseaudio",
         "battery",
         "network",
-        "bluetooth",
-        "tray"
+        "bluetooth"
     ],
-
     "hyprland/workspaces": {
-        "format": "{name}: {icon}",
-        "format-icons": {
-            "active": "",
-            "default": ""
-        }
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "{name}",
+        "cursor": true,
     },
-
     "clock": {
         "format": "{:%H:%M}", // 24-hour time
         "tooltip-format": "<big>{:%A, %B %d, %Y}</big>\n<small>{:%I:%M %p}</small>",
