@@ -9,11 +9,11 @@
     ],
     "modules-right": [
         "tray",
-        "hyprland/language",
-        "pulseaudio",
-        "battery",
+        "bluetooth",
         "network",
-        "bluetooth"
+        "battery",
+        "pulseaudio",
+        "hyprland/language"
     ],
     "hyprland/workspaces": {
         "disable-scroll": true,

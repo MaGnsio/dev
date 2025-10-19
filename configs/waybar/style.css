@@ -88,6 +88,10 @@ tooltip {
     color: @orange;
 }
 
+#tray {
+    color: @gray
+}
+
 #clock {
     margin-right: 10px;
     color: @blue;
