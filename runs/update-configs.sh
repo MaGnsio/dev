@@ -16,3 +16,5 @@ sudo cp ~/workspace/dev/scripts/* /usr/local/bin/
 sudo cp ~/workspace/dev/configs/.zshrc ~/.zshrc && source ~/.zshrc
 
 sudo cp ~/workspace/dev/configs/.tmux.conf ~/.tmux.conf && tmux source -v ~/.tmux.conf
+
+sudo cp ~/workspace/dev/configs/rofi/config.rasi ~/.config/rofi/config.rasi
