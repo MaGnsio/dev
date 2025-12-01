@@ -1,10 +1,11 @@
 #!/usr/bin/env zsh
 
-sudo cp -r ~/workspace/dev/configs/hypr/* ~/.config/hypr/ && hyprctl
+sudo cp -r ~/workspace/dev/configs/hypr/* ~/.config/hypr/ && hyprctl reload
 
 sudo cp -r ~/workspace/dev/configs/waybar/* ~/.config/waybar/
 
-sudo cp -r ~/workspace/dev/configs/swaync/* ~/.config/swaync/
+sudo cp -r ~/workspace/dev/configs/swaync/* ~/.config/swaync/ \
+  && swaync-client -R && swaync-client -rs
 
 sudo cp -r ~/workspace/dev/configs/rofi/* ~/.config/rofi/
 
