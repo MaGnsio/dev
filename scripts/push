@@ -1,10 +1,15 @@
 #!/usr/bin/env bash
+echo "pushing claude/personal..."
 git -C claude/personal add . && git -C claude/personal commit -m "update" && git -C claude/personal push
 
+echo "pushing claude/work..."
 git -C claude/work add . && git -C claude/work commit -m "update" && git -C claude/work push
 
+echo "pushing claude..."
 git -C claude add . && git -C claude commit -m "update submodules" && git -C claude push
 
+echo "pushing configs/nvim..."
 git -C configs/nvim add . && git -C configs/nvim commit -m "update" && git -C configs/nvim push
 
+echo "pushing dotfiles..."
 git add . && git commit -m "update" && git push

@@ -1,6 +1,15 @@
 #!/usr/bin/env bash
+echo "pulling claude/personal..."
 git -C claude/personal pull
+
+echo "pulling claude/work..."
 git -C claude/work pull
+
+echo "pulling claude..."
 git -C claude pull
+
+echo "pulling configs/nvim..."
 git -C configs/nvim pull
+
+echo "pulling dotfiles..."
 git pull
