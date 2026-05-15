@@ -1,3 +1,6 @@
 [submodule "claude"]
 	path = claude
 	url = git@github.com:MaGnsio/claude-config.git
+[submodule "configs/nvim"]
+	path = configs/nvim
+	url = git@github.com:MaGnsio/nvim-config.git
