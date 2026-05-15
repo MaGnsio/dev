@@ -1,0 +1,13 @@
+[user]
+	name = MaGnsi0
+	email = magnsi0o0@gmail.com
+
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = nvim
+
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = false
