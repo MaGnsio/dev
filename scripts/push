@@ -1,15 +1,18 @@
 #!/usr/bin/env bash
-echo "pushing claude/personal..."
+RED='\033[0;31m'
+NC='\033[0m'
+
+echo -e "${RED}pushing claude/personal...${NC}"
 git -C claude/personal add . && git -C claude/personal commit -m "update" && git -C claude/personal push
 
-echo "pushing claude/work..."
+echo -e "${RED}pushing claude/work...${NC}"
 git -C claude/work add . && git -C claude/work commit -m "update" && git -C claude/work push
 
-echo "pushing claude..."
+echo -e "${RED}pushing claude...${NC}"
 git -C claude add . && git -C claude commit -m "update submodules" && git -C claude push
 
-echo "pushing configs/nvim..."
+echo -e "${RED}pushing configs/nvim...${NC}"
 git -C configs/nvim add . && git -C configs/nvim commit -m "update" && git -C configs/nvim push
 
-echo "pushing dotfiles..."
+echo -e "${RED}pushing dotfiles...${NC}"
 git add . && git commit -m "update" && git push
