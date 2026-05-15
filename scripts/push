@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+git -C claude/personal add . && git -C claude/personal commit -m "update" && git -C claude/personal push
+
+git -C claude/work add . && git -C claude/work commit -m "update" && git -C claude/work push
+
+git -C claude add . && git -C claude commit -m "update submodules" && git -C claude push
+
+git -C configs/nvim add . && git -C configs/nvim commit -m "update" && git -C configs/nvim push
+
+git add . && git commit -m "update" && git push
