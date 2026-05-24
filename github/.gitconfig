@@ -1,13 +1,23 @@
 [user]
-	name = MaGnsi0
-	email = magnsi0o0@gmail.com
-
+  name = MaGnsi0
+  email = magnsi0o0@gmail.com
 [core]
-	excludesfile = ~/.gitignore_global
-	editor = nvim
-
+  excludesfile = ~/.gitignore_global
+  editor = nvim
+  pager = delta
 [init]
-	defaultBranch = main
-
+  defaultBranch = main
 [pull]
-	rebase = false
+  rebase = true
+[interactive]
+  difffilter = delta --color-only
+[alias]
+  slog = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[delta]
+  navigate = true
+  side-by-side = true
+  line-numbers = true
+[merge]
+  conflictStyle = zdiff3
+[column]
+  ui = auto
