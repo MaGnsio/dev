@@ -1,9 +1,9 @@
-theme = TokyoNight Moon
+theme = Rose Pine
 background-opacity = 0.85
 background-blur = false
 
 font-family = "Monaspace Krypton Medium"
-font-size = 18
+font-size = 16
 
 confirm-close-surface = false
 clipboard-paste-protection = false
