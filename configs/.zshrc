@@ -1,5 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME=""
+ZSH_THEME="robbyrussell"
 zstyle ':omz:update' mode auto
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
@@ -60,10 +60,6 @@ case "$(uname -s)" in
 
     if command -v mise &> /dev/null; then
       eval "$(mise activate zsh)"
-    fi
-
-    if command -v starship &> /dev/null; then
-      eval "$(starship init zsh)"
     fi
 
     if command -v zoxide &> /dev/null; then
