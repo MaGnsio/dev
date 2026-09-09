@@ -23,6 +23,8 @@ case "$(uname -s)" in
     export HOMEBREW_NO_AUTO_UPDATE=1
     ;;
   Linux)
+    echo "🐧 Linux | Environment Initialized"
+
     : "${OMARCHY_PATH:=/usr/share/omarchy}"
     export OMARCHY_PATH
 
